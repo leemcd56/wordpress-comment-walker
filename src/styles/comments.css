@@ -1,0 +1,32 @@
+.comment-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.comment-list ol, .comment-list ul {
+  list-style-type: none;
+}
+
+.comment-meta {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 1rem 0;
+}
+.comment-meta .avatar {
+  float: left;
+  margin: 0 1rem 0 0;
+}
+.comment-meta .author {
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.comment-meta .comment-content {
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .comment-list ol, .comment-list ul {
+    margin: 0;
+    padding: 0;
+  }
+}
